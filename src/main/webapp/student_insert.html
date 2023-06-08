@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="student_insert.css" type="text/css">
+</head>
+<body>
+<form action="studentInsert" method="post">
+        <div>
+            <nav id="topbar">
+                <div id="logo">
+                    <img src="./gok.png" alt="logo" style="width: 100px;">
+                </div>
+                <div id="kseab">KARNATAKA SCHOOL EXAMINATION AND ASSESSMENT
+                    BOARD</div>
+            </nav>
+        </div>
+        <nav id="details">
+            <div>
+                <h1 id="spd">STUDENT PERSONAL DETAILS</h1>
+            </div>
+
+            <nav id="first">
+                <div id="text">REGISTRATION NUMBER</div>
+                <div id="colon">:</div>
+                <div id="input">
+                    <input type="text" name="usn" placeholder="REGISTRATION NUMBER" id="field">
+                </div>
+                <div id="text">STUDENT NAME</div>
+                <div id="colon">:</div>
+                <div id="input">
+                    <input type="text" name="name" placeholder="STUDENT NAME" id="field3">
+                </div>
+            </nav>
+            <nav id="second">
+                <div id="text">DATE OF BIRTH</div>
+                <div id="colon">:</div>
+                <div id="input">
+                    <input type="date" name="dob" id="dob">
+                </div>
+            </nav>
+            <nav id="third">
+                <div id="text">STUDENT FATHER NAME</div>
+                <div id="colon">:</div>
+                <div id="input">
+                    <input type="text" name="fname" placeholder="FATHER NAME" id="field">
+                </div>
+                <div id="text">STUDENT MOTHER NAME</div>
+                <div id="colon">:</div>
+                <div id="input">
+                    <input type="text" name="mname" placeholder="MOTHER NAME" id="field3">
+                </div>
+            </nav>
+        </nav>
+        <nav id="details">
+            <div>
+                <h1 id="spd">STUDENT MARKS DETAILS</h1>
+            </div>
+            <nav id="marks">
+                <div id="text1">KANNADA</div>
+                <div>
+                    <input id="field1" type="number" name="kim" placeholder="INTERNAL" min="0" max="25">
+                </div>
+                <div id="spacer">
+                    <input id="field1" type="number" name="kem" placeholder="EXTERNAL" min="0" max="100">
+                </div>
+                <div id="text2">ENGLISH</div>
+                <div>
+                    <input id="field1" type="number" name="eim" placeholder="INTERNAL" min="0" max="20">
+                </div>
+                <div id="spacer">
+                    <input id="field1" type="number" name="eem" placeholder="EXTERNAL" min="0" max="80">
+                </div>
+            </nav>
+            <nav id="marks">
+                <div id="text1">HINDI</div>
+                <div>
+                    <input id="field1" type="number" name="him" placeholder="INTERNAL" min="0" max="20">
+                </div>
+                <div id="spacer">
+                    <input id="field1" type="number" name="hem" placeholder="EXTERNAL" min="0" max="80">
+                </div>
+                <div id="text2">MATHEMATICS</div>
+                <div>
+                    <input id="field1" type="number" name="mim" placeholder="INTERNAL" min="0" max="20">
+                </div>
+                <div id="spacer">
+                    <input id="field1" type="number" name="mem" placeholder="EXTERNAL" min="0" max="80">
+                </div>
+            </nav>
+            <nav id="marks">
+                <div id="text1">SCIENCE</div>
+                <div>
+                    <input id="field1" type="number" name="sim" placeholder="INTERNAL" min="0" max="20">
+                </div>
+                <div id="spacer">
+                    <input id="field1" type="number" name="sem" placeholder="EXTERNAL" min="0" max="80">
+                </div>
+                <div id="text2">SOCIAL SCIENCE</div>
+                <div>
+                    <input id="field1" type="number" name="ssim" placeholder="INTERNAL" min="0" max="20">
+                </div>
+                <div id="spacer">
+                    <input id="field1" type="number" name="ssem" placeholder="EXTERNAL" min="0" max="80">
+                </div>
+            </nav>
+        </nav>
+        <nav id="buttons">
+            <div id="click">
+                <button id="insert" type="submit">INSERT</button>
+            </div>
+            <div id="click">
+                <button id="insert" type="reset">RESET</button>
+            </div>
+    </form>
+    <form action="student_crudpage.html">
+        <div id="click">
+            <button id="back">BACK</button>
+        </div>
+    </form>
+    </nav>
+    <nav id="bottombar">
+        <div id="gok">Government of Karnataka</div>
+    </nav>
+</body>
+</html>
